@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.beingdev.magicprint">
+    package="com.mul1sh.easyprint">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -23,7 +23,7 @@
             android:value="5" />
         <meta-data
             android:name="AA_MODELS"
-            android:value="com.beingdev.magicprint.db.Notification" />
+            android:value="com.mul1sh.easyprint.db.Notification" />
         <!--
         Add the following to your AndroidManifest.xml to prevent the launching of your main Activity
         if you are calling startActivity above.
@@ -74,7 +74,7 @@
             android:name=".NotificationActivity"
             android:theme="@style/WhiteTheme" />
         <activity
-            android:name=".prodcutscategory.Cards"
+            android:name=".productscategory.Cards"
             android:theme="@style/WhiteTheme" />
         <activity
             android:name=".IndividualProduct"
@@ -89,19 +89,19 @@
             android:name=".OrderPlaced"
             android:theme="@style/WhiteTheme" />
         <activity
-            android:name=".prodcutscategory.Tshirts"
+            android:name=".productscategory.Tshirts"
             android:theme="@style/WhiteTheme" />
         <activity
-            android:name=".prodcutscategory.Bags"
+            android:name=".productscategory.Bags"
             android:theme="@style/WhiteTheme" />
         <activity
-            android:name=".prodcutscategory.Calendars"
+            android:name=".productscategory.Calendars"
             android:theme="@style/WhiteTheme" />
         <activity
-            android:name=".prodcutscategory.Keychains"
+            android:name=".productscategory.Keychains"
             android:theme="@style/WhiteTheme" />
         <activity
-            android:name=".prodcutscategory.Stationary"
+            android:name=".productscategory.Stationary"
             android:theme="@style/WhiteTheme" />
         <activity android:name=".WelcomeActivity"
             android:theme="@style/AppTheme.NoActionBar"/>

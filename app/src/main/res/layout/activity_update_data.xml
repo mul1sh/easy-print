@@ -6,14 +6,14 @@
     android:layout_height="match_parent"
     android:background="@color/colorAccent"
     xmlns:fancy="http://schemas.android.com/apk/res-auto"
-    tools:context="com.beingdev.magicprint.UpdateData">
+    tools:context="com.mul1sh.easyprint.UpdateData">
 
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/toolbarwrap"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
@@ -56,8 +56,8 @@
 
         </LinearLayout>
 
-    </android.support.v7.widget.Toolbar>
-    </android.support.design.widget.AppBarLayout>
+    </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
 
 
     <ScrollView

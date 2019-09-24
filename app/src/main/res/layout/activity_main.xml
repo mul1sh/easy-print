@@ -6,14 +6,14 @@
     android:layout_height="match_parent"
     android:background="@color/colorAccent"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
-    tools:context="com.beingdev.magicprint.MainActivity">
+    tools:context="com.mul1sh.easyprint.MainActivity">
 
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/toolbarwrap"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
@@ -69,9 +69,9 @@
 
         </LinearLayout>
 
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
 
-    </android.support.design.widget.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
     <ScrollView
         android:scrollbars="vertical"
@@ -106,7 +106,7 @@
                     android:layout_height="wrap_content"
                     android:weightSum="10">
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         android:onClick="cardsActivity"
                         style="@style/homegridcard"
                         card_view:cardCornerRadius="@dimen/card_album_radius">
@@ -128,9 +128,9 @@
 
                         </RelativeLayout>
 
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         style="@style/homegridcard"
                     card_view:cardCornerRadius="@dimen/card_album_radius"
                         android:onClick="tshirtActivity">
@@ -150,17 +150,16 @@
                             style="@style/homegridtext"/>
 
                     </RelativeLayout>
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
           </LinearLayout>
-
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:weightSum="10">
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         style="@style/homegridcard"
                         card_view:cardCornerRadius="@dimen/card_album_radius"
                         android:onClick="bagsActivity">
@@ -181,9 +180,9 @@
 
                         </RelativeLayout>
 
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         style="@style/homegridcard"
                         card_view:cardCornerRadius="@dimen/card_album_radius"
                         android:onClick="stationaryAcitivity">
@@ -203,7 +202,7 @@
                             style="@style/homegridtext"/>
 
                     </RelativeLayout>
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
                 </LinearLayout>
 
@@ -213,7 +212,7 @@
                     android:layout_height="wrap_content"
                     android:weightSum="10">
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         style="@style/homegridcard"
                         card_view:cardCornerRadius="@dimen/card_album_radius"
                         android:onClick="calendarsActivity">
@@ -234,8 +233,8 @@
 
                         </RelativeLayout>
 
-                    </android.support.v7.widget.CardView>
-                    <android.support.v7.widget.CardView
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
                         style="@style/homegridcard"
                         card_view:cardCornerRadius="@dimen/card_album_radius"
                         android:onClick="keychainsActivity">
@@ -256,7 +255,7 @@
 
                     </RelativeLayout>
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
                 </LinearLayout>
 
